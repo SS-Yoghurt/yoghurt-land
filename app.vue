@@ -1,5 +1,11 @@
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <main class="text-center">
+    <Header />
+    <NuxtPage />
+    <Footer />
+  </main>
 </template>
+
+<style>
+@import '~/styles/main.css';
+</style>
